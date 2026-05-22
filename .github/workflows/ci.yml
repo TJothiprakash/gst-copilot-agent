@@ -68,7 +68,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/${{ github.repository }}:latest
+          tags: ghcr.io/tjothiprakash/gst-copilot-agent:latest
 
   # ── Deploy job ─────────────────────────────────────────────────────────────
   deploy:
